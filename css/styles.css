@@ -411,7 +411,7 @@ address {
 }
 .client-logo-link:hover,
 .client-logo-link:focus {
-  /* fill: var(--accent-color); */
+  fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
@@ -597,12 +597,13 @@ address {
 
 .link-portfolio {
   cursor: pointer;
+  display: block;
 }
 
-.portfolio-item:hover,
-.lportfolio-item:focus {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+.link-portfolio:hover,
+.link-portfolio:focus {
+  /* background: #ffffff;
+  border: 1px solid #eeeeee; */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
